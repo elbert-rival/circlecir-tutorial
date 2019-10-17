@@ -6,11 +6,11 @@ jobs:
     steps:
       - checkout
       - run:
-        name: Test first step
-        command: |
-          echo 'What'
-          echo 'is'
-          echo 'going'
-          echo 'on'
-          echo 'can it enter the node version?'
-          node
+          name: Test first step
+          command: |
+            echo 'What'
+            echo 'is'
+            echo 'going'
+            echo 'on'
+            echo 'can it enter the node version?'
+            node
