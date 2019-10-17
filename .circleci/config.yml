@@ -14,3 +14,6 @@ jobs:
             echo 'on'
             echo 'can it enter the node version?'
             node
+            1 + 1
+            . exit
+            echo 'exit node successfully'
