@@ -6,8 +6,8 @@ jobs:
     steps:
       - checkout
       - run:
-        - name: Test first step
-        - command: |
+        name: Test first step
+        command: |
           echo 'What'
           echo 'is'
           echo 'going'
