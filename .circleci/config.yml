@@ -5,6 +5,12 @@ jobs:
       - image: circleci/node:10.16.3
     steps:
       - checkout
-      - run:  echo "First hello"
-      - run:  node
-      - run:  1 + 1
+      - run:
+        - name: Test first step
+        - command: |
+          echo 'What'
+          echo 'is'
+          echo 'going'
+          echo 'on'
+          echo 'can it enter the node version?'
+          node
